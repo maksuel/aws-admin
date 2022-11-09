@@ -1,5 +1,4 @@
 import { ReactNode } from 'react'
-import AppProvider from '@/context/app'
 import '@/styles/globals.css'
 
 interface Props {
@@ -10,9 +9,7 @@ export default function RootLayout({ children }: Props) {
 	return (
 		<html>
 			<head></head>
-			<body className="bg-black text-white">
-				<AppProvider>{children}</AppProvider>
-			</body>
+			<body className="bg-black text-white">{children}</body>
 		</html>
 	)
 }
