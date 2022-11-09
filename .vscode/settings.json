@@ -1,0 +1,38 @@
+{
+	"files.autoSave": "onFocusChange",
+	"files.associations": {
+		"*.css": "tailwindcss"
+	},
+	"files.exclude": {
+		"node_modules": true,
+		".next": true
+	},
+
+	"editor.formatOnSave": true,
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.tabSize": 4,
+	"editor.insertSpaces": false,
+	"editor.quickSuggestions": {
+		"strings": true
+	},
+
+	"prettier.arrowParens": "avoid",
+	"prettier.bracketSpacing": true,
+	// prettier.endOfLine
+	// prettier.htmlWhitespaceSensitivity
+	// prettier.insertPragma
+	"prettier.bracketSameLine": false,
+	// prettier.jsxSingleQuote
+	// prettier.printWidth
+	// prettier.proseWrap
+	// prettier.quoteProps
+	// prettier.requirePragma
+	"prettier.semi": false,
+	"prettier.singleQuote": true,
+	// prettier.tabWidth
+	"prettier.trailingComma": "none",
+	"prettier.useTabs": true,
+
+	"typescript.tsdk": "./node_modules/typescript/lib",
+	"typescript.enablePromptUseWorkspaceTsdk": true
+}
